@@ -3,7 +3,7 @@
 #include "shape.h"
 #include "car.h"
 
-
+// using the get Area in the parent class we can then just add up all the shapes in the array
 float getTotalArea(shape** shapes, int sizeOfArray) {
     float total = 0;
 

@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// set up base draw parent class so we can have an area for both child classes
 class shape : draw {
 protected:
     float area;
@@ -23,6 +24,7 @@ public:
 
 };
 
+//rectangle class
 class Rectangle : public shape {
 public:
     Rectangle() : shape() {}
@@ -31,7 +33,7 @@ public:
     int width;
     int array[MAX][MAX] = { 0 };
 
-    // set up varables 
+    // set up varables in constructor
     Rectangle(int h, int w) {
         height = h;
         width = w;
@@ -47,6 +49,7 @@ public:
         }
     }
 
+    //draw this classes array in "*" and " "
     void Draw() {
         for (int i = 0; i < MAX; i++) {
             for (int j = 0; j < MAX; j++) {
@@ -58,16 +61,20 @@ public:
                 }
             }
             cout << "\n";
+            //the /n and the second loop represent copmetling a full lonitude of the array
+            // since its a double array we then repeat the proccess with the first loop to draw up the longitude
         }
     }
 };
 
+//circle class
 class Circle : public shape {
 
 public:
     int radius;
     int array[MAX][MAX] = { 0 };
 
+    //constructor used to set up variables
     Circle(int r) {
         radius = r;
 
@@ -95,6 +102,7 @@ public:
 
     }
 
+    //draw this classes array in "*" and " "
     void Draw() {
         for (int i = 0; i < MAX; i++) {
             for (int j = 0; j < MAX; j++) {
@@ -106,10 +114,12 @@ public:
                 }
             }
             cout << "\n";
+            //the /n and the second loop represent copmetling a full lonitude of the array
+        // since its a double array we then repeat the proccess with the first loop to draw up the longitude
         }
     }
 
 };
 
-
+//initlise function
 float getTotalArea(shape** shapes, int sizeOfArray);

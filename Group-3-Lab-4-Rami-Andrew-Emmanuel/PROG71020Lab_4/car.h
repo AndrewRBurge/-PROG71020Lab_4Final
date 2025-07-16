@@ -3,6 +3,7 @@
 
 using namespace std;
 
+//car class
 class car : public draw {
 protected:
 	int array[MAX][MAX] = { 0 };
@@ -10,13 +11,15 @@ protected:
     string brand;
 
 public:
+    // constructors
     car() : carName{ "" }, brand{ "None" } {} // Default constructor
     car(string Name, string Brand) : carName{ Name }, brand{ Brand } {};
 
+    //change the name of the car 
 	void changeName(string name) {
 		carName = name;
 	}
-
+    //initlizes the array that fits the image of the car (were not artists)
 	virtual void prepCar() {
         // Car Body (rectangle shape)
         for (int i = 8; i < 12; i++) {
@@ -44,7 +47,7 @@ public:
         array[12][14] = 1;
         array[13][14] = 1;
     }
-
+    //draws car
     void Draw() {
         for (int i = 0; i < MAX; i++) {
             for (int j = 0; j < MAX; j++) {
@@ -58,7 +61,7 @@ public:
             cout << "\n";
         }
     }
-
+    //will print the cars "carname" along with " is driving " when called
     void isDriving() {
         cout << carName << " is Driving\n" << endl;
     }
@@ -67,8 +70,10 @@ public:
 
 class BMW : public car {
 public:
+    //reuses the base car contructor to make the BMW
     BMW() : car("bmw", "BMW") {}
 
+    //initlizes the array that fits the image of the car (were not artists)
     void prepCar() override {
 
         // Car Body (rectangle shape)
@@ -106,6 +111,7 @@ public:
 
 class mazda : public car {
 public:
+    //reuses the base car contructor to make the Mazda
     mazda() : car("MAZDA", "Mazda") {}
 
 };
