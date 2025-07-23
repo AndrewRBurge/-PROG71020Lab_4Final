@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4C8725-3477-4544-8D53-4FA63C26722A}|PROG71020Lab_4\\PROG71020Lab_4.vcxproj|C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3F4C8725-3477-4544-8D53-4FA63C26722A}|PROG71020Lab_4\\PROG71020Lab_4.vcxproj|solutionrelative:PROG71020Lab_4\\car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4C8725-3477-4544-8D53-4FA63C26722A}|PROG71020Lab_4\\PROG71020Lab_4.vcxproj|C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\shape.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3F4C8725-3477-4544-8D53-4FA63C26722A}|PROG71020Lab_4\\PROG71020Lab_4.vcxproj|solutionrelative:PROG71020Lab_4\\shape.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4C8725-3477-4544-8D53-4FA63C26722A}|PROG71020Lab_4\\PROG71020Lab_4.vcxproj|C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3F4C8725-3477-4544-8D53-4FA63C26722A}|PROG71020Lab_4\\PROG71020Lab_4.vcxproj|solutionrelative:PROG71020Lab_4\\car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4C8725-3477-4544-8D53-4FA63C26722A}|PROG71020Lab_4\\PROG71020Lab_4.vcxproj|C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3F4C8725-3477-4544-8D53-4FA63C26722A}|PROG71020Lab_4\\PROG71020Lab_4.vcxproj|solutionrelative:PROG71020Lab_4\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4C8725-3477-4544-8D53-4FA63C26722A}|PROG71020Lab_4\\PROG71020Lab_4.vcxproj|C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\globals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3F4C8725-3477-4544-8D53-4FA63C26722A}|PROG71020Lab_4\\PROG71020Lab_4.vcxproj|solutionrelative:PROG71020Lab_4\\globals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4C8725-3477-4544-8D53-4FA63C26722A}|PROG71020Lab_4\\PROG71020Lab_4.vcxproj|C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3F4C8725-3477-4544-8D53-4FA63C26722A}|PROG71020Lab_4\\PROG71020Lab_4.vcxproj|solutionrelative:PROG71020Lab_4\\shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "shape.h",
+              "DocumentMoniker": "C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\shape.h",
+              "RelativeDocumentMoniker": "PROG71020Lab_4\\shape.h",
+              "ToolTip": "C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\shape.h",
+              "RelativeToolTip": "PROG71020Lab_4\\shape.h",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-16T13:39:45.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "globals.h",
+              "DocumentMoniker": "C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\globals.h",
+              "RelativeDocumentMoniker": "PROG71020Lab_4\\globals.h",
+              "ToolTip": "C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\globals.h",
+              "RelativeToolTip": "PROG71020Lab_4\\globals.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-16T13:39:44.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "car.h",
+              "DocumentMoniker": "C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\car.h",
+              "RelativeDocumentMoniker": "PROG71020Lab_4\\car.h",
+              "ToolTip": "C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\car.h",
+              "RelativeToolTip": "PROG71020Lab_4\\car.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-16T13:39:43.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "shape.cpp",
+              "DocumentMoniker": "C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\shape.cpp",
+              "RelativeDocumentMoniker": "PROG71020Lab_4\\shape.cpp",
+              "ToolTip": "C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\shape.cpp",
+              "RelativeToolTip": "PROG71020Lab_4\\shape.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-16T13:39:40.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "car.cpp",
+              "DocumentMoniker": "C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\car.cpp",
+              "RelativeDocumentMoniker": "PROG71020Lab_4\\car.cpp",
+              "ToolTip": "C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\car.cpp",
+              "RelativeToolTip": "PROG71020Lab_4\\car.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-16T13:39:39.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\Main.cpp",
+              "RelativeDocumentMoniker": "PROG71020Lab_4\\Main.cpp",
+              "ToolTip": "C:\\ConProgramming\\Lab1\\-PROG71020Lab_4Final\\Group-3-Lab-4-Rami-Andrew-Emmanuel\\PROG71020Lab_4\\Main.cpp",
+              "RelativeToolTip": "PROG71020Lab_4\\Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-16T13:39:34.793Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
