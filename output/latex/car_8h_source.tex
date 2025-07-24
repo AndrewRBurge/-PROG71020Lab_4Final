@@ -1,6 +1,5 @@
 \doxysection{car.\+h}
-\hypertarget{car_8h_source}{}\label{car_8h_source}\index{C:/ConProgramming/Lab1/-\/PROG71020Lab\_4Final/Group-\/3-\/Lab-\/4-\/Rami-\/Andrew-\/Emmanuel/PROG71020Lab\_4/car.h@{C:/ConProgramming/Lab1/-\/PROG71020Lab\_4Final/Group-\/3-\/Lab-\/4-\/Rami-\/Andrew-\/Emmanuel/PROG71020Lab\_4/car.h}}
-
+\hypertarget{car_8h_source}{}\label{car_8h_source}
 \begin{DoxyCode}{0}
 \DoxyCodeLine{00001\ \textcolor{preprocessor}{\#include\ <iostream>}}
 \DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ "{}globals.h"{}}}
@@ -8,7 +7,7 @@
 \DoxyCodeLine{00004\ \textcolor{keyword}{using\ namespace\ }std;}
 \DoxyCodeLine{00005\ }
 \DoxyCodeLine{00006\ \textcolor{comment}{//car\ class}}
-\DoxyCodeLine{00007\ \textcolor{keyword}{class\ }car\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classdraw}{draw}}\ \{}
+\DoxyCodeLine{00007\ \textcolor{keyword}{class\ }Vehicle\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_drawable}{Drawable}}\ \{}
 \DoxyCodeLine{00008\ \textcolor{keyword}{protected}:}
 \DoxyCodeLine{00009\ \ \ \ \ \textcolor{keywordtype}{int}\ array[MAX][MAX]\ =\ \{\ 0\ \};}
 \DoxyCodeLine{00010\ \ \ \ \ \textcolor{keywordtype}{string}\ carName;}
@@ -16,8 +15,8 @@
 \DoxyCodeLine{00012\ }
 \DoxyCodeLine{00013\ \textcolor{keyword}{public}:}
 \DoxyCodeLine{00014\ \ \ \ \ \textcolor{comment}{//\ constructors}}
-\DoxyCodeLine{00015\ \ \ \ \ car()\ :\ carName\{\ \textcolor{stringliteral}{"{}"{}}\ \},\ brand\{\ \textcolor{stringliteral}{"{}None"{}}\ \}\ \{\}\ \textcolor{comment}{//\ Default\ constructor}}
-\DoxyCodeLine{00016\ \ \ \ \ car(\textcolor{keywordtype}{string}\ Name,\ \textcolor{keywordtype}{string}\ Brand)\ :\ carName\{\ Name\ \},\ brand\{\ Brand\ \}\ \{\};}
+\DoxyCodeLine{00015\ \ \ \ \ Vehicle()\ :\ carName\{\ \textcolor{stringliteral}{"{}"{}}\ \},\ brand\{\ \textcolor{stringliteral}{"{}None"{}}\ \}\ \{\}\ \textcolor{comment}{//\ Default\ constructor}}
+\DoxyCodeLine{00016\ \ \ \ \ Vehicle(\textcolor{keywordtype}{string}\ Name,\ \textcolor{keywordtype}{string}\ Brand)\ :\ carName\{\ Name\ \},\ brand\{\ Brand\ \}\ \{\};}
 \DoxyCodeLine{00017\ }
 \DoxyCodeLine{00018\ \ \ \ \ \textcolor{comment}{//change\ the\ name\ of\ the\ car\ }}
 \DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{void}\ changeName(\textcolor{keywordtype}{string}\ name)\ \{}
@@ -72,10 +71,10 @@
 \DoxyCodeLine{00068\ \};}
 \DoxyCodeLine{00069\ }
 \DoxyCodeLine{00070\ }
-\DoxyCodeLine{00071\ \textcolor{keyword}{class\ }BMW\ :\ \textcolor{keyword}{public}\ car\ \{}
+\DoxyCodeLine{00071\ \textcolor{keyword}{class\ }BMW\ :\ \textcolor{keyword}{public}\ Vehicle\ \{}
 \DoxyCodeLine{00072\ \textcolor{keyword}{public}:}
 \DoxyCodeLine{00073\ \ \ \ \ \textcolor{comment}{//reuses\ the\ base\ car\ contructor\ to\ make\ the\ BMW}}
-\DoxyCodeLine{00074\ \ \ \ \ BMW()\ :\ car(\textcolor{stringliteral}{"{}bmw"{}},\ \textcolor{stringliteral}{"{}BMW"{}})\ \{\}}
+\DoxyCodeLine{00074\ \ \ \ \ BMW()\ :\ Vehicle(\textcolor{stringliteral}{"{}bmw"{}},\ \textcolor{stringliteral}{"{}BMW"{}})\ \{\}}
 \DoxyCodeLine{00075\ }
 \DoxyCodeLine{00076\ \ \ \ \ \textcolor{comment}{//initlizes\ the\ array\ that\ fits\ the\ image\ of\ the\ car\ (were\ not\ artists)}}
 \DoxyCodeLine{00077\ \ \ \ \ \textcolor{keywordtype}{void}\ prepCar()\textcolor{keyword}{\ override\ }\{}
@@ -113,10 +112,10 @@
 \DoxyCodeLine{00109\ \};}
 \DoxyCodeLine{00110\ }
 \DoxyCodeLine{00111\ }
-\DoxyCodeLine{00112\ \textcolor{keyword}{class\ }mazda\ :\ \textcolor{keyword}{public}\ car\ \{}
+\DoxyCodeLine{00112\ \textcolor{keyword}{class\ }mazda\ :\ \textcolor{keyword}{public}\ Vehicle\ \{}
 \DoxyCodeLine{00113\ \textcolor{keyword}{public}:}
 \DoxyCodeLine{00114\ \ \ \ \ \textcolor{comment}{//reuses\ the\ base\ car\ contructor\ to\ make\ the\ Mazda}}
-\DoxyCodeLine{00115\ \ \ \ \ mazda()\ :\ car(\textcolor{stringliteral}{"{}MAZDA"{}},\ \textcolor{stringliteral}{"{}Mazda"{}})\ \{\}}
+\DoxyCodeLine{00115\ \ \ \ \ mazda()\ :\ Vehicle(\textcolor{stringliteral}{"{}MAZDA"{}},\ \textcolor{stringliteral}{"{}Mazda"{}})\ \{\}}
 \DoxyCodeLine{00116\ }
 \DoxyCodeLine{00117\ \};}
 

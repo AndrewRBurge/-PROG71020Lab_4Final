@@ -4,7 +4,7 @@
 using namespace std;
 
 // set up base draw parent class so we can have an area for both child classes
-class shape : draw {
+class shape : Drawable {
 protected:
     float area;
 

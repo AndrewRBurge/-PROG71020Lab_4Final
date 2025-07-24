@@ -4,7 +4,7 @@
 #define pi 3.141593 // we use PI in area calculation.
 
 // since everything need to drawn we set a gobal draw function as a virtual function 
-class draw {
+class Drawable {
 public:
     //draws in "*" and " " based on an array 
 	virtual void Draw(int arr[MAX][MAX]) {

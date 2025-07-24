@@ -4,7 +4,7 @@
 using namespace std;
 
 //car class
-class car : public draw {
+class Vehicle : public Drawable {
 protected:
 	int array[MAX][MAX] = { 0 };
 	string carName;
@@ -12,8 +12,8 @@ protected:
 
 public:
     // constructors
-    car() : carName{ "" }, brand{ "None" } {} // Default constructor
-    car(string Name, string Brand) : carName{ Name }, brand{ Brand } {};
+    Vehicle() : carName{ "" }, brand{ "None" } {} // Default constructor
+    Vehicle(string Name, string Brand) : carName{ Name }, brand{ Brand } {};
 
     //change the name of the car 
 	void changeName(string name) {
@@ -68,10 +68,10 @@ public:
 };
 
 
-class BMW : public car {
+class BMW : public Vehicle {
 public:
     //reuses the base car contructor to make the BMW
-    BMW() : car("bmw", "BMW") {}
+    BMW() : Vehicle("bmw", "BMW") {}
 
     //initlizes the array that fits the image of the car (were not artists)
     void prepCar() override {
@@ -109,9 +109,9 @@ public:
 };
 
 
-class mazda : public car {
+class mazda : public Vehicle {
 public:
     //reuses the base car contructor to make the Mazda
-    mazda() : car("MAZDA", "Mazda") {}
+    mazda() : Vehicle("MAZDA", "Mazda") {}
 
 };

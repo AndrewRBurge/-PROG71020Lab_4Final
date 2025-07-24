@@ -1,7 +1,7 @@
 var hierarchy =
 [
-    [ "draw", "classdraw.html", [
-      [ "car", "classcar.html", [
+    [ "Drawable", "class_drawable.html", [
+      [ "Vehicle", "class_vehicle.html", [
         [ "BMW", "class_b_m_w.html", null ],
         [ "mazda", "classmazda.html", null ]
       ] ],

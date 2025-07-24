@@ -1,23 +1,23 @@
-﻿  Main.cpp
-C:\Users\Ramim\source\repos\AndrewRBurge\-PROG71020Lab_4\PROG71020Lab_4\PROG71020Lab_4\shape.h(38,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+﻿  car.cpp
+  Main.cpp
+C:\ConProgramming\Lab1\-PROG71020Lab_4Final\Group-3-Lab-4-Rami-Andrew-Emmanuel\PROG71020Lab_4\shape.h(40,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'Main.cpp')
   
-C:\Users\Ramim\source\repos\AndrewRBurge\-PROG71020Lab_4\PROG71020Lab_4\PROG71020Lab_4\shape.h(74,24): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\ConProgramming\Lab1\-PROG71020Lab_4Final\Group-3-Lab-4-Rami-Andrew-Emmanuel\PROG71020Lab_4\shape.h(81,24): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'Main.cpp')
   
-C:\Users\Ramim\source\repos\AndrewRBurge\-PROG71020Lab_4\PROG71020Lab_4\PROG71020Lab_4\shape.h(75,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\ConProgramming\Lab1\-PROG71020Lab_4Final\Group-3-Lab-4-Rami-Andrew-Emmanuel\PROG71020Lab_4\shape.h(82,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Main.cpp')
   
-  car.cpp
   shape.cpp
-C:\Users\Ramim\source\repos\AndrewRBurge\-PROG71020Lab_4\PROG71020Lab_4\PROG71020Lab_4\shape.h(38,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\ConProgramming\Lab1\-PROG71020Lab_4Final\Group-3-Lab-4-Rami-Andrew-Emmanuel\PROG71020Lab_4\shape.h(40,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'shape.cpp')
   
-C:\Users\Ramim\source\repos\AndrewRBurge\-PROG71020Lab_4\PROG71020Lab_4\PROG71020Lab_4\shape.h(74,24): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\ConProgramming\Lab1\-PROG71020Lab_4Final\Group-3-Lab-4-Rami-Andrew-Emmanuel\PROG71020Lab_4\shape.h(81,24): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'shape.cpp')
   
-C:\Users\Ramim\source\repos\AndrewRBurge\-PROG71020Lab_4\PROG71020Lab_4\PROG71020Lab_4\shape.h(75,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\ConProgramming\Lab1\-PROG71020Lab_4Final\Group-3-Lab-4-Rami-Andrew-Emmanuel\PROG71020Lab_4\shape.h(82,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'shape.cpp')
   
   Generating Code...
-  PROG71020Lab_4.vcxproj -> C:\Users\Ramim\source\repos\AndrewRBurge\-PROG71020Lab_4\PROG71020Lab_4\x64\Debug\PROG71020Lab_4.exe
+  PROG71020Lab_4.vcxproj -> C:\ConProgramming\Lab1\-PROG71020Lab_4Final\Group-3-Lab-4-Rami-Andrew-Emmanuel\x64\Debug\PROG71020Lab_4.exe
